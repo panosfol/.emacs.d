@@ -180,7 +180,7 @@ Falls back to `dape-cwd' for buffers not visiting a file."
                    :request "launch"
                    :mode "debug"
                    :cwd dape-cwd
-                   :program init-dape-package-dir)))
+                   :program init-dape-package-dir))))
 
 ;; Delve cuts values in variables responses at 256 characters (trailing
 ;; "...") and has no setting for it, but an evaluate request in the
